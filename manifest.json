@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+	"name": "ACICFG style",
+	"version": "1.0",
+	"description": "Change [Chinese ACI Froum]'s style. Made by FlyingSky.",  
+	"content_scripts":
+	[
+		{
+			"matches": ["https://forum.chineseaci.com/*"],
+			"js": ["acicfgstyle.js"]
+		}
+	]
+} 
